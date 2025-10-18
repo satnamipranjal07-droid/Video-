@@ -54,17 +54,6 @@
 
   <script src="js/script.js"></script>
    <script>
-async function loadVideos() {
-  try {
-    const response = await fetch('http://localhost:5000/api/videos');
-    const videos = await response.json();
-    console.log(videos); // Console mein check karo
-    // Example: document.getElementById('videos').innerHTML = videos.map(v => `<p>${v.title}</p>`).join('');
-  } catch (err) {
-    console.error('Error:', err);
-  }
-}
-loadVideos();
-   </script>
+
 </body>
 </html>
